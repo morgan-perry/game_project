@@ -73,9 +73,9 @@ If your exit code is 0 and Clion detects your SDL2 headers then you are good to 
 
 4. Add to the CMakeList:
 
-``` 
+```
 set(SDL2_IMAGE_PATH "SDL2/x86_64-w64-mingw32")
-find_package(SDL2_image REQUIRED) 
+find_package(SDL2_image REQUIRED)
 ```
 
 **Modify the SDL2_IMAGE_PATH if you are using the 32 bit version**
